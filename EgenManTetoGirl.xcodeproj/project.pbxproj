@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		91CED4E22E0C87BF00476ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CED4C02E0C87BD00476ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CED4C72E0C87BD00476ED1;
+			remoteInfo = EgenManTetoGirl;
+		};
+		91CED4EC2E0C87BF00476ED1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91CED4C02E0C87BD00476ED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91CED4C72E0C87BD00476ED1;
+			remoteInfo = EgenManTetoGirl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91CED4C82E0C87BD00476ED1 /* EgenManTetoGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EgenManTetoGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CED4E12E0C87BF00476ED1 /* EgenManTetoGirlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgenManTetoGirlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91CED4EB2E0C87BF00476ED1 /* EgenManTetoGirlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EgenManTetoGirlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		91CED4F32E0C87BF00476ED1 /* Exceptions for "EgenManTetoGirl" folder in "EgenManTetoGirl" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 91CED4C72E0C87BD00476ED1 /* EgenManTetoGirl */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		91CED4CA2E0C87BD00476ED1 /* EgenManTetoGirl */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				91CED4F32E0C87BF00476ED1 /* Exceptions for "EgenManTetoGirl" folder in "EgenManTetoGirl" target */,
+			);
+			path = EgenManTetoGirl;
+			sourceTree = "<group>";
+		};
+		91CED4E42E0C87BF00476ED1 /* EgenManTetoGirlTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EgenManTetoGirlTests;
+			sourceTree = "<group>";
+		};
+		91CED4EE2E0C87BF00476ED1 /* EgenManTetoGirlUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EgenManTetoGirlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91CED4C52E0C87BD00476ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4DE2E0C87BF00476ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4E82E0C87BF00476ED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91CED4BF2E0C87BD00476ED1 = {
+			isa = PBXGroup;
+			children = (
+				91CED4CA2E0C87BD00476ED1 /* EgenManTetoGirl */,
+				91CED4E42E0C87BF00476ED1 /* EgenManTetoGirlTests */,
+				91CED4EE2E0C87BF00476ED1 /* EgenManTetoGirlUITests */,
+				91CED4C92E0C87BD00476ED1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91CED4C92E0C87BD00476ED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91CED4C82E0C87BD00476ED1 /* EgenManTetoGirl.app */,
+				91CED4E12E0C87BF00476ED1 /* EgenManTetoGirlTests.xctest */,
+				91CED4EB2E0C87BF00476ED1 /* EgenManTetoGirlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91CED4C72E0C87BD00476ED1 /* EgenManTetoGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CED4F42E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirl" */;
+			buildPhases = (
+				91CED4C42E0C87BD00476ED1 /* Sources */,
+				91CED4C52E0C87BD00476ED1 /* Frameworks */,
+				91CED4C62E0C87BD00476ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				91CED4CA2E0C87BD00476ED1 /* EgenManTetoGirl */,
+			);
+			name = EgenManTetoGirl;
+			packageProductDependencies = (
+			);
+			productName = EgenManTetoGirl;
+			productReference = 91CED4C82E0C87BD00476ED1 /* EgenManTetoGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91CED4E02E0C87BF00476ED1 /* EgenManTetoGirlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CED4F92E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirlTests" */;
+			buildPhases = (
+				91CED4DD2E0C87BF00476ED1 /* Sources */,
+				91CED4DE2E0C87BF00476ED1 /* Frameworks */,
+				91CED4DF2E0C87BF00476ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CED4E32E0C87BF00476ED1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91CED4E42E0C87BF00476ED1 /* EgenManTetoGirlTests */,
+			);
+			name = EgenManTetoGirlTests;
+			packageProductDependencies = (
+			);
+			productName = EgenManTetoGirlTests;
+			productReference = 91CED4E12E0C87BF00476ED1 /* EgenManTetoGirlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91CED4EA2E0C87BF00476ED1 /* EgenManTetoGirlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CED4FC2E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirlUITests" */;
+			buildPhases = (
+				91CED4E72E0C87BF00476ED1 /* Sources */,
+				91CED4E82E0C87BF00476ED1 /* Frameworks */,
+				91CED4E92E0C87BF00476ED1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CED4ED2E0C87BF00476ED1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				91CED4EE2E0C87BF00476ED1 /* EgenManTetoGirlUITests */,
+			);
+			name = EgenManTetoGirlUITests;
+			packageProductDependencies = (
+			);
+			productName = EgenManTetoGirlUITests;
+			productReference = 91CED4EB2E0C87BF00476ED1 /* EgenManTetoGirlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91CED4C02E0C87BD00476ED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					91CED4C72E0C87BD00476ED1 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					91CED4E02E0C87BF00476ED1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 91CED4C72E0C87BD00476ED1;
+					};
+					91CED4EA2E0C87BF00476ED1 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 91CED4C72E0C87BD00476ED1;
+					};
+				};
+			};
+			buildConfigurationList = 91CED4C32E0C87BD00476ED1 /* Build configuration list for PBXProject "EgenManTetoGirl" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91CED4BF2E0C87BD00476ED1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 91CED4C92E0C87BD00476ED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91CED4C72E0C87BD00476ED1 /* EgenManTetoGirl */,
+				91CED4E02E0C87BF00476ED1 /* EgenManTetoGirlTests */,
+				91CED4EA2E0C87BF00476ED1 /* EgenManTetoGirlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91CED4C62E0C87BD00476ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4DF2E0C87BF00476ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4E92E0C87BF00476ED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91CED4C42E0C87BD00476ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4DD2E0C87BF00476ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91CED4E72E0C87BF00476ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91CED4E32E0C87BF00476ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CED4C72E0C87BD00476ED1 /* EgenManTetoGirl */;
+			targetProxy = 91CED4E22E0C87BF00476ED1 /* PBXContainerItemProxy */;
+		};
+		91CED4ED2E0C87BF00476ED1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91CED4C72E0C87BD00476ED1 /* EgenManTetoGirl */;
+			targetProxy = 91CED4EC2E0C87BF00476ED1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91CED4F52E0C87BF00476ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EgenManTetoGirl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91CED4F62E0C87BF00476ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EgenManTetoGirl/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91CED4F72E0C87BF00476ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91CED4F82E0C87BF00476ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91CED4FA2E0C87BF00476ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgenManTetoGirl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EgenManTetoGirl";
+			};
+			name = Debug;
+		};
+		91CED4FB2E0C87BF00476ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EgenManTetoGirl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EgenManTetoGirl";
+			};
+			name = Release;
+		};
+		91CED4FD2E0C87BF00476ED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EgenManTetoGirl;
+			};
+			name = Debug;
+		};
+		91CED4FE2E0C87BF00476ED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M3KH86595Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sangjin.EgenManTetoGirlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EgenManTetoGirl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91CED4C32E0C87BD00476ED1 /* Build configuration list for PBXProject "EgenManTetoGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CED4F72E0C87BF00476ED1 /* Debug */,
+				91CED4F82E0C87BF00476ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CED4F42E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CED4F52E0C87BF00476ED1 /* Debug */,
+				91CED4F62E0C87BF00476ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CED4F92E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CED4FA2E0C87BF00476ED1 /* Debug */,
+				91CED4FB2E0C87BF00476ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91CED4FC2E0C87BF00476ED1 /* Build configuration list for PBXNativeTarget "EgenManTetoGirlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CED4FD2E0C87BF00476ED1 /* Debug */,
+				91CED4FE2E0C87BF00476ED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91CED4C02E0C87BD00476ED1 /* Project object */;
+}
