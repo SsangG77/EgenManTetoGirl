@@ -7,6 +7,8 @@
 
 import UIKit
 import CoreData
+import AppTrackingTransparency
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +17,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+         // 앱 시작 후 1초 뒤에 권한 요청
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+        if #available(iOS 14.5, *) {
+            ATTrackingManager.requestTrackingAuthorization { status in
+                switch status {
+                case .authorized:
+                    print("광고 추적 권한 허용")
+                case .denied:
+                    print("광고 추적 권한 거부")
+                case .notDetermined:
+                    print("광고 추적 권한 미결정")
+                case .restricted:
+                    print("광고 추적 권한 제한")
+                @unknown default:
+                    print("알 수 없는 상태")
+                }
+            }
+        }
+    }
         return true
     }
 
