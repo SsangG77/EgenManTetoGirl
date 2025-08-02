@@ -16,6 +16,7 @@ enum ButtomType {
 
 class ResultViewController: UIViewController {
     let resultType: String
+    let resultImage: String
     let descriptionText: String
     let tettoPercent: Int
     let egenPercent: Int
@@ -23,8 +24,9 @@ class ResultViewController: UIViewController {
     let egenScore: Int
     private var gradientLayer: CAGradientLayer?
 
-    init(resultType: String, description: String, tettoPercent: Int, egenPercent: Int, tettoScore: Int, egenScore: Int) {
+    init(resultType: String, resultImage: String, description: String, tettoPercent: Int, egenPercent: Int, tettoScore: Int, egenScore: Int) {
         self.resultType = resultType
+        self.resultImage = resultImage
         self.descriptionText = description
         self.tettoPercent = tettoPercent
         self.egenPercent = egenPercent
@@ -69,7 +71,7 @@ class ResultViewController: UIViewController {
 
         // 결과 이미지뷰 추가
         let resultImageView = UIImageView()
-        resultImageView.image = UIImage(named: resultType)
+        resultImageView.image = UIImage(named: resultImage)
         resultImageView.contentMode = .scaleAspectFit
         resultImageView.layer.cornerRadius = 20
         resultImageView.clipsToBounds = true
@@ -121,23 +123,6 @@ class ResultViewController: UIViewController {
 
         [titleLabel, resultImageView, descLabel, tettoContainer, tettoProgressBar, tettoPercentLabel, egenContainer, egenProgressBar, egenPercentLabel].forEach { view.addSubview($0); $0.translatesAutoresizingMaskIntoConstraints = false }
 
-//        let homeButton = UIButton(type: .system)
-//        homeButton.setTitle("처음으로", for: .normal)
-//        homeButton.titleLabel?.font = .boldSystemFont(ofSize: 20)
-//        homeButton.backgroundColor = UIColor.white.withAlphaComponent(0.9)
-//        homeButton.setTitleColor(.systemBlue, for: .normal)
-//        homeButton.layer.cornerRadius = 25
-//        homeButton.layer.borderWidth = 2
-//        homeButton.layer.borderColor = UIColor.white.cgColor
-//        homeButton.contentEdgeInsets = UIEdgeInsets(top: 15, left: 40, bottom: 15, right: 40)
-//        
-//        // 그림자 효과
-//        homeButton.layer.shadowColor = UIColor.black.cgColor
-//        homeButton.layer.shadowOffset = CGSize(width: 0, height: 4)
-//        homeButton.layer.shadowRadius = 8
-//        homeButton.layer.shadowOpacity = 0.3
-//        
-//        homeButton.addTarget(self, action: #selector(goToRoot), for: .touchUpInside)
         let homeButton = createButton(type: .home) {
             self.goToRoot()
         }

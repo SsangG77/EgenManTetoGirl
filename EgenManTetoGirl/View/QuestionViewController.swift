@@ -148,8 +148,16 @@ class QuestionViewController: UIViewController {
     }
 
     func showResult() {
-        let (resultType, resultDesc, tettoPercent, egenPercent, tettoScore, egenScore) = ResultCalculator.calculate(answers: answers, gender: gender)
-        let resultVC = ResultViewController(resultType: resultType, description: resultDesc, tettoPercent: tettoPercent, egenPercent: egenPercent, tettoScore: tettoScore, egenScore: egenScore)
+        let (resultType, resultImage, resultDesc, tettoPercent, egenPercent, tettoScore, egenScore) = ResultCalculator.calculate(answers: answers, gender: gender)
+        let resultVC = ResultViewController(
+            resultType: resultType,
+            resultImage: resultImage,
+            description: resultDesc,
+            tettoPercent: tettoPercent,
+            egenPercent: egenPercent,
+            tettoScore: tettoScore,
+            egenScore: egenScore
+        )
         navigationController?.pushViewController(resultVC, animated: true)
     }
 
